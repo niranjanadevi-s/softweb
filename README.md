@@ -39,9 +39,7 @@ Step 7: Publish the website in the given URL.
                 margin: auto;
                 padding: 35px 0;
                 display: flex;
-~~~
-~~~
-            }.logo {
+             }.logo {
                 color:gold;
                 font-size: 40px;
                 font-weight: 700;
@@ -56,6 +54,8 @@ Step 7: Publish the website in the given URL.
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
             }
+~~~
+~~~
             .navbar li:hover {
                 border: 1px;
                 padding: 10px;
