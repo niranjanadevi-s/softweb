@@ -28,7 +28,7 @@ Step 7: Publish the website in the given URL.
                 margin: 0;
                 padding: 0;
                 font-family: 'Courier New', Courier, monospace;
-                        }
+             }
             .banner {
                 width: 100%;
                 height: 100vh ;
@@ -111,10 +111,7 @@ Step 7: Publish the website in the given URL.
                 height: 100vh;
                 background-size: cover;
                 background-position: center;
-            }
-            span {
-                color: white;
-            }
+           }
             form input {
                 background: transparent;
                 flex: 1;
@@ -132,11 +129,7 @@ Step 7: Publish the website in the given URL.
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
                 gap: 20px;
-            }footer {
-                background-color: gold;
-                margin-top: auto;
-            }
-        </style>
+          </style>
     </head>
 <body background="image.webp">
     <div class="banner">
@@ -146,8 +139,6 @@ Step 7: Publish the website in the given URL.
             <ul>
                 <li><a href="homepage.html"> Home </a></li>
                 <li><a href="Products.html"> Products </a></li>
-                <li><a href="person.html"> People </a></li>
-                <li><a href="contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -155,21 +146,15 @@ Step 7: Publish the website in the given URL.
             </form>
         </div>
         <div class="container">
-            <div class="box-container">
-                <div class="box">
-                    <img src="python.jpeg" alt="">
+          <img src="python.jpeg" alt="">
                     <h3>Python</h3>
                     <p>Where simplicity meets power in the world of programming.</p>
                 </div>
               <div class="box">
-                    <img src="ruby.png" alt="">
                     <h3>RUBY</h3>
                     <p> open source programming language with a focus on simplicity and productivity..</p>
                 </div>
-          </div>
-    <footer>
-        <center> Designed and Developed by Niranjana devi s (212221220036) </center>
-    </footer>
+          </footer>
 </body>
 </html>
 ## Person.html
@@ -198,18 +183,12 @@ Step 7: Publish the website in the given URL.
                 margin-top: auto;
             }
         </style>
-    </head>
-<body background="image.webp">
-    <div class="banner">
-        <br>
-        <div class="navbar">
+         <div class="navbar">
             <h1 class="logo">C<span>ode</span>V<span>erse</span></h1>
             <ul>
                 <li><a href="homepage.html"> Home </a></li>
                 <li><a href="Products.html"> Products </a></li>
-                <li><a href="person.html"> People </a></li>
-                <li><a href="contact.html"> Contact </a></li>
-            <form action="" method="get">
+                <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
             </form>
@@ -227,14 +206,10 @@ Step 7: Publish the website in the given URL.
                 <tr align="center">
                     <td> CEO </td>
                     <td> CEO, Co-Founder </td>
-                    <td> CTO, Co-Founder </td>
-                    <td> Director </td>
-                    <td> Asst. Director </td>
                     <td> Dy. Director </td>
                 </tr>
             </table>
-        </div>
-    <footer>
+       <footer>
         <center> Designed and Developed by Niranjana devi S (212221220036) </center>
     </footer>
 </body>
@@ -254,34 +229,21 @@ Step 7: Publish the website in the given URL.
                 width: 85%;
                 margin: auto;
                 padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
+           }
             form button {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
                 color:black;
-                border-radius: 10px;
-                background:gold;
-                cursor: pointer;
             }height: 400px;
                 width: 400px;
                 border: 3px solid gold;
                 border-radius: 20px;
-                background: transparent;
-                position: relative;
-                left: 300px;
-           }
+               }
             .box-1 form button {
                 border: 0;
                 outline: none;
                 padding: 10px 20px;
-            }
-           .box-2 span {
-                color: gold;
-                font-size: 20px;
             }
             footer {
                 background-color: gold;
@@ -290,16 +252,12 @@ Step 7: Publish the website in the given URL.
         </style>
     </head>
 <body background="image.webp">
-    <div class="banner">
-        <br>
-        <div class="navbar">
+   <div class="navbar">
             <h1 class="logo">C<span>ode</span>V<span>erse</span></h1>
             <ul>
                 <li><a href="homepage.html"> Home </a></li>
                 <li><a href="Products.html"> Products </a></li>
-                <li><a href="person.html"> People </a></li>
-                <li><a href="contact.html"> Contact </a></li>
-            </ul>
+              </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
