@@ -5,36 +5,21 @@
 To develop a static company website to display the softwares and services provided by the company.
 
 ## DESIGN STEPS:
+Step 1:Requirement collection.
 
-### Step 1:
-Requirement collection.
+Step 2: Creating the layout using HTML and CSS.
 
-### Step 2:
-Creating the layout using HTML and CSS.
+Step 3: Updating the sample content.
 
-### Step 3:
-Updating the sample content.
+Step 4: Choose the appropriate style and color scheme.
 
-### Step 4:
-Choose the appropriate style and color scheme.
+Step 5: Validate the layout in various browsers.
 
-### Step 5:
-Validate the layout in various browsers.
+Step 6: Validate the HTML code.
 
-### Step 6:
-Validate the HTML code.
-
-### Step 7:
-Publish the website in the given URL.
-
+Step 7: Publish the website in the given URL.
 ## PROGRAM:
-
-NAME : Niranjana devi s
-
-REG NO : 212221220036
-
 ## home.html
-
 ~~~
 <html>
     <head>
@@ -60,8 +45,7 @@ REG NO : 212221220036
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-            }
-            .logo {
+            }.logo {
                 color:gold;
                 font-size: 40px;
                 font-weight: 700;
@@ -80,6 +64,8 @@ REG NO : 212221220036
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
             }
+~~~
+~~~
             form input {
                 background: transparent;
                 flex: 1;
@@ -140,26 +126,7 @@ REG NO : 212221220036
                 font-size: 15px;
                 margin-bottom: 30px;
                 word-spacing: 2px;
-                letter-spacing: 1px;
-            }
-            .login {
-                margin: 0px 10px;
-                border: 2px solid gold;
-                padding: 13px 35px;
-                letter-spacing: 1px;
-                color:black;
-                border-radius: 30px;
-                background-color: gold;
-                text-decoration: none;
-            }
-            .login:hover {
-                border: 2px solid gold;
-                color: gold;
-                background-color: white;
-                transition: 0.5s;
-                cursor: pointer;
-            } 
-            .signup {
+            } .signup {
                 margin: 0px 10px;
                 border: 2px solid gold;
                 padding: 13px 35px;
@@ -216,11 +183,7 @@ REG NO : 212221220036
     </footer>
 </body>
 </html>
-~~~
-
 ## Product.html
-
-~~~
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -290,27 +253,7 @@ REG NO : 212221220036
                 display: inline-block;
                 margin: 0 20px;
                 position: relative;
-            }
-            .navbar li a {
-                text-decoration: none;
-                color: white;
-                text-transform: uppercase;
-            }
-            .navbar li:hover {
-                border: 1px;
-                padding: 10px;
-                color: white;
-                background-color:gold;
-                transition: 0.5s; 
-                cursor: pointer;
-                border-radius: 30px;
-            }
-            .container {
-                background: transparent;
-                padding: 10px 5%;
-                padding-bottom: 100px;
-            }
-            .container .box-container {
+            }.container .box-container {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
                 gap: 20px;
@@ -430,10 +373,7 @@ REG NO : 212221220036
     </footer>
 </body>
 </html>
-~~~
-
 ## Person.html
-~~~
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -476,29 +416,7 @@ REG NO : 212221220036
                 font-size: 15px;
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
-            }
-            form input {
-                background: transparent;
-                flex: 1;
-                border: 0;
-                outline: none;
-                padding: 12px 20px;
-                font-size: 15px;
-                color: white;
-            } 
-            ::placeholder {
-                color: white;
-            }
-            form button {
-                border: 0;
-                outline: none;
-                padding: 5px 20px;
-                color:black;
-                border-radius: 10px;
-                background:gold;
-                cursor: pointer;
-            }
-            .navbar li {
+          }.navbar li {
                 list-style: none;
                 display: inline-block;
                 margin: 0 20px;
@@ -595,11 +513,7 @@ REG NO : 212221220036
     </footer>
 </body>
 </html>
-~~~
-
 ## Contact.html
-
-~~~
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -629,21 +543,7 @@ REG NO : 212221220036
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
-            }
-            span {
-                color: white;
-            }
-            form {
-                width: 300px;
-                height: 40px;
-                display: flex;
-                background: rgba(255, 255, 255, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
-            }
-            form input {
+            }form input {
                 background: transparent;
                 flex: 1;
                 border: 0;
@@ -674,33 +574,7 @@ REG NO : 212221220036
                 text-decoration: none;
                 color: white;
                 text-transform: uppercase;
-            }
-            .navbar li:hover {
-                border: 1px;
-                padding: 10px;
-                color: white;
-                background-color:gold;
-                transition: 0.5s; 
-                cursor: pointer;
-                border-radius: 30px;
-            }
-            .box {
-                display: flex;
-                column-gap: 40px;
-                background: transparent;
-                position: relative;
-                top: 50px;
-            }
-            .box-1 {
-                height: 400px;
-                width: 400px;
-                border: 3px solid white;
-                border-radius: 20px;
-                background: transparent;
-                position: relative;
-                left: 250px;
-            }
-            .box-2 {
+            }.box-2 {
                 height: 400px;
                 width: 400px;
                 border: 3px solid gold;
@@ -818,7 +692,6 @@ REG NO : 212221220036
 </body>
 </html>
 ~~~
-
 ## OUTPUT:
 
 ![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/a752935f-eae1-43a0-8868-a0d9e11c5887)
