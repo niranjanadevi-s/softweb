@@ -49,34 +49,20 @@ Step 7: Publish the website in the given URL.
                 height: 40px;
                 display: flex;
                 background: rgba(255, 255, 255, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
-            }
-~~~
-~~~
-            .navbar li:hover {
+                }.navbar li:hover {
                 border: 1px;
                 padding: 10px;
                 color: white;
                 background-color:gold;
-                transition: 0.5s; 
-                cursor: pointer;
-                border-radius: 30px;
-            }
-            .content {
+                }.content {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 text-align: center;
-            }
-           footer {
-                background-color: gold;
-                margin-top: auto;
-            }
-        </style>
+            </style>
+~~~
+~~~
     </head>
             <div class="navbar">
             <h1 class="logo">C<span>ode</span>V<span>erse</span></h1>
