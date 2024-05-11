@@ -1,9 +1,7 @@
 # Ex.07 Software Product Company Website
 ## Date: 24.04.2024
-
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
-
 ## DESIGN STEPS:
 Step 1:Requirement collection.
 
@@ -36,9 +34,9 @@ Step 7: Publish the website in the given URL.
                 height: 100vh ;
                 background-size: cover;
                 background-position: center;
-
-            }
-            .navbar {
+~~~
+~~~
+         .navbar {
                 width: 85%;
                 margin: auto;
                 padding: 35px 0;
@@ -63,40 +61,6 @@ Step 7: Publish the website in the given URL.
                 font-size: 15px;
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
-            }
-~~~
-~~~
-            form input {
-                background: transparent;
-                flex: 1;
-                border: 0;
-                outline: none;
-                padding: 12px 20px;
-                font-size: 15px;
-                color: white;
-            } 
-            ::placeholder {
-                color: white;
-            }
-            form button {
-                border: 0;
-                outline: none;
-                padding: 5px 20px;
-                color:black;
-                border-radius: 10px;
-                background:gold;
-                cursor: pointer;
-            }
-            .navbar li {
-                list-style: none;
-                display: inline-block;
-                margin: 0 20px;
-                position: relative;
-            }
-            .navbar li a {
-                text-decoration: none;
-                color: white;
-                text-transform: uppercase;
             }
             .navbar li:hover {
                 border: 1px;
@@ -126,23 +90,7 @@ Step 7: Publish the website in the given URL.
                 font-size: 15px;
                 margin-bottom: 30px;
                 word-spacing: 2px;
-            } .signup {
-                margin: 0px 10px;
-                border: 2px solid gold;
-                padding: 13px 35px;
-                letter-spacing: 1px;
-                color:black;
-                border-radius: 30px;
-                background-color:  gold;
-                text-decoration: none;
-            }
-            .signup:hover {
-                border: 2px solid gold;
-                color: gold;
-                background-color: white;
-                transition: 0.5s;
-                cursor: pointer;
-            }
+           
             footer {
                 background-color: gold;
                 margin-top: auto;
@@ -200,32 +148,8 @@ Step 7: Publish the website in the given URL.
                 background-size: cover;
                 background-position: center;
             }
-            .navbar {
-                width: 100%;
-                margin: auto;
-                padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            .logo {
-                color:gold;
-                font-size: 40px;
-                font-weight: 700;
-                letter-spacing: 3px;
-            }
             span {
                 color: white;
-            }
-            form {
-                width: 300px;
-                height: 40px;
-                display: flex;
-                background: rgba(255, 255, 255, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
             }
             form input {
                 background: transparent;
@@ -235,20 +159,7 @@ Step 7: Publish the website in the given URL.
                 padding: 12px 20px;
                 font-size: 15px;
                 color: white;
-            } 
-            ::placeholder {
-                color: white;
-            }
-            form button {
-                border: 0;
-                outline: none;
-                padding: 5px 20px;
-                color:black;
-                border-radius: 10px;
-                background:gold;
-                cursor: pointer;
-            }
-            .navbar li {
+            } .navbar li {
                 list-style: none;
                 display: inline-block;
                 margin: 0 20px;
@@ -257,30 +168,7 @@ Step 7: Publish the website in the given URL.
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
                 gap: 20px;
-            }
-            .container .box-container .box {
-                color: white;
-                box-shadow: 0 5px 10px rgba(0,0,0,.2);
-                border-radius: 10px;
-                background: transparent;
-                border: 1px solid white;
-                padding: 10px 5px;
-            }
-            .container .box-container .box img {
-                height: 50px;
-                border-radius: 20px;
-            }
-            .container .box-container .box h3 {
-                color: gold;
-                font-size: large;
-                padding: 10px 0;
-            }
-            .container .box-container .box p {
-                color: white;
-                font-size: small;
-                line-height: 1.5;
-            }
-            footer {
+            }footer {
                 background-color: gold;
                 margin-top: auto;
             }
@@ -309,50 +197,10 @@ Step 7: Publish the website in the given URL.
                     <h3>Python</h3>
                     <p>Where simplicity meets power in the world of programming.</p>
                 </div>
-                <div class="box">
-                    <img src="c.png" alt="">
-                    <h3>C pgg </h3>
-                    <p> Coding resilience in C: Unleashing the raw power of systems programming.</p>
-                </div>
-                <div class="box">
-                    <img src="c++.png" alt="">
-                    <h3>C++ pgg</h3>
-                    <p>Elevating possibilities with the perfect blend of efficiency and object-oriented elegance.</p>
-                </div>
-                <div class="box">
-                    <img src="java.png" alt="">
-                    <h3>Java</h3>
-                    <p>Brewing cross-platform magic with the steaming cup of robust and versatile programming.</p>
-                </div>
-                <div class="box">
-                    <img src="javascript.png" alt="">
-                    <h3>Java Script</h3>
-                    <p>Transforming web landscapes with dynamic interactivity and client-side wizardry.</p>
-                </div>
-                <div class="box">
-                    <img src="sql.png" alt="">
-                    <h3>SQL</h3>
-                    <p>It is used to manage data in database management system and particularly useful in handling structured data.</p>
-                </div>
-                <div class="box">
+               <div class="box">
                     <img src="html.png" alt="">
                     <h3>HTML</h3>
                     <p>designed to be displayed in a web browser. It defines the content and structure of web content. </p>
-                </div>
-                <div class="box">
-                    <img src="CSS.png" alt="">
-                    <h3>CSS</h3>
-                    <p>CSS basics walks through what you need to get started.a simple mechanism for adding style</p>
-                </div>
-                <div class="box">
-                    <img src="c1.png" alt="">
-                    <h3>C#</h3>
-                    <p> a general-purpose high-level programming language supporting multiple paradigms</p>
-                </div>
-                <div class="box">
-                    <img src="php.png" alt="">
-                    <h3>PHP</h3>
-                    <p>a server scripting language, and a powerful tool for making dynamic and interactive Web pages. </p>
                 </div>
                 <div class="box">
                     <img src="go.png" alt="">
@@ -364,10 +212,7 @@ Step 7: Publish the website in the given URL.
                     <h3>RUBY</h3>
                     <p> open source programming language with a focus on simplicity and productivity..</p>
                 </div>
- 
-            </div>
-        </div>
-    </div>
+          </div>
     <footer>
         <center> Designed and Developed by Niranjana devi s (212221220036) </center>
     </footer>
@@ -383,60 +228,18 @@ Step 7: Publish the website in the given URL.
                 margin: 0;
                 padding: 0;
                 font-family: 'Courier New', Courier, monospace;
-                        }
-            .banner {
+        .banner {
                 width: 100%;
                 height: 100vh;
                 background-size: cover;
                 background-position: center;
-            }
-            .navbar {
-                width: 85%;
-                margin: auto;
-                padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            .logo {
-                color:gold;
-                font-size: 40px;
-                font-weight: 700;
-                letter-spacing: 3px;
-            }
-            span {
-                color: white;
-            }
-            form {
-                width: 300px;
-                height: 40px;
-                display: flex;
-                background: rgba(255, 255, 255, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
-          }.navbar li {
+        }.navbar li {
                 list-style: none;
                 display: inline-block;
                 margin: 0 20px;
                 position: relative;
             }
-            .navbar li a {
-                text-decoration: none;
-                color: white;
-                text-transform: uppercase;
-            }
-            .navbar li:hover {
-                border: 1px;
-                padding: 10px;
-                color: white;
-                background-color:gold;
-                transition: 0.5s; 
-                cursor: pointer;
-                border-radius: 30px;
-            }
-            .image {
+           .image {
                 position: relative;
                 border: 0;
                 top: 70px;
@@ -447,17 +250,7 @@ Step 7: Publish the website in the given URL.
                 color: white;
                 position: relative;
                 left: 150px;
-            }
-            .image table img {
-                height: 140px;
-                width: 140px;
-                border: 2px solid white;
-                padding: 5px;
-                border-radius: 50%;
-            }
-            .image table td {
-                color: gold;
-            }
+           }
             footer {
                 background-color: gold;
                 margin-top: auto;
@@ -523,7 +316,7 @@ Step 7: Publish the website in the given URL.
                 margin: 0;
                 padding: 0;
                 font-family: 'Courier New', Courier, monospace;
-                        }
+            }
             .banner {
                 width: 100%;
                 height: 100vh;
@@ -537,23 +330,6 @@ Step 7: Publish the website in the given URL.
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-            }
-            .logo {
-                color:gold;
-                font-size: 40px;
-                font-weight: 700;
-                letter-spacing: 3px;
-            }form input {
-                background: transparent;
-                flex: 1;
-                border: 0;
-                outline: none;
-                padding: 12px 20px;
-                font-size: 15px;
-                color: white;
-            } 
-            ::placeholder {
-                color: white;
             }
             form button {
                 border: 0;
@@ -582,37 +358,7 @@ Step 7: Publish the website in the given URL.
                 background: transparent;
                 position: relative;
                 left: 300px;
-            }
-            .box-1 form {
-                display: flex;
-                color: white;
-                background: transparent;
-                padding: 10px;
-                font-size: 15px;
-                position: relative;
-                top: 15px;
-            }
-            .box-1 form input {
-                background: transparent;
-                display: flex;
-                border: 1px solid white;
-                border-radius: 10px;
-                padding: 15px 30px;
-                font-size: 15px;
-                color: white;
-                position: relative;
-                top: 30px;
-            }
-            .box-1 form textarea {
-                background: transparent;
-                color: white;
-                padding: 15px 10px;
-                position: relative;
-                top: 30px;
-                left: 30px;
-                border: 1px solid white;
-                border-radius: 10px;
-            }
+           }
             .box-1 form button {
                 border: 0;
                 outline: none;
@@ -624,20 +370,7 @@ Step 7: Publish the website in the given URL.
                 position: relative;
                 top: 50px;
             }
-            .box-2 h2 {
-                color: white;
-                position: relative;
-                top: 25px;
-                left: 50px;
-                font-size: 30px;
-            }
-            .box-2 p {
-                color: white;
-                position: relative;
-                top: 50px;
-                padding: 10px 80px;
-            }
-            .box-2 span {
+           .box-2 span {
                 color: gold;
                 font-size: 20px;
             }
@@ -670,12 +403,7 @@ Step 7: Publish the website in the given URL.
                         <h1> Contact Us </h1>
                         <input type="text" placeholder="Your Name">
                         <br>
-                        <input type="email" placeholder="Your Email">
-                        <br>
-                        <textarea rows="4" cols="30" placeholder="Your Message"> </textarea>
-                        <br>
-                        <button type="submit"> Submit </button>
-                    </center>
+                        </center>
                 </form>
             </div>
             <div class="box-2"> 
@@ -693,17 +421,8 @@ Step 7: Publish the website in the given URL.
 </html>
 ~~~
 ## OUTPUT:
-
 ![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/a752935f-eae1-43a0-8868-a0d9e11c5887)
-
 ![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/807ac5fe-5e73-4de9-b773-7b375c7b0cab)
-
 ![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/2e35f414-657d-4bfd-9b9d-b48676690988)
-
-![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/5f774cc1-6472-46e9-ac56-ced37b650281)
-
-![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/74cd0fed-7c73-4d5c-8961-65bb0dfe876d)
-
-
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
