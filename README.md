@@ -34,25 +34,19 @@ Step 7: Publish the website in the given URL.
                 height: 100vh ;
                 background-size: cover;
                 background-position: center;
-~~~
-~~~
-         .navbar {
+             .navbar {
                 width: 85%;
                 margin: auto;
                 padding: 35px 0;
                 display: flex;
-                align-items: center;
-                justify-content: space-between;
+~~~
+~~~
             }.logo {
                 color:gold;
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
-            }
-            span {
-                color: white;
-            }
-            form {
+            }form {
                 width: 300px;
                 height: 40px;
                 display: flex;
@@ -78,29 +72,13 @@ Step 7: Publish the website in the given URL.
                 transform: translate(-50%,-50%);
                 text-align: center;
             }
-            .text h2 {
-                color: white;
-                font-weight: 800;
-                font-size: 50px;
-                letter-spacing: 3px;
-            }
-            .text p {
-                color: white;
-                text-transform: capitalize;
-                font-size: 15px;
-                margin-bottom: 30px;
-                word-spacing: 2px;
-           
-            footer {
+           footer {
                 background-color: gold;
                 margin-top: auto;
             }
         </style>
     </head>
-<body background="image.webp">
-    <div class="banner">
-        <br>
-        <div class="navbar">
+            <div class="navbar">
             <h1 class="logo">C<span>ode</span>V<span>erse</span></h1>
             <ul>
                 <li><a href="homepage.html"> Home </a></li>
@@ -197,17 +175,7 @@ Step 7: Publish the website in the given URL.
                     <h3>Python</h3>
                     <p>Where simplicity meets power in the world of programming.</p>
                 </div>
-               <div class="box">
-                    <img src="html.png" alt="">
-                    <h3>HTML</h3>
-                    <p>designed to be displayed in a web browser. It defines the content and structure of web content. </p>
-                </div>
-                <div class="box">
-                    <img src="go.png" alt="">
-                    <h3>GO</h3>
-                    <p>open source programming language that makes it simple to build secure, scalable systems.</p>
-                </div>
-                <div class="box">
+              <div class="box">
                     <img src="ruby.png" alt="">
                     <h3>RUBY</h3>
                     <p> open source programming language with a focus on simplicity and productivity..</p>
@@ -239,19 +207,7 @@ Step 7: Publish the website in the given URL.
                 margin: 0 20px;
                 position: relative;
             }
-           .image {
-                position: relative;
-                border: 0;
-                top: 70px;
-                background: transparent;
-            }
-            .image table {
-                border: 0;
-                color: white;
-                position: relative;
-                left: 150px;
-           }
-            footer {
+          footer {
                 background-color: gold;
                 margin-top: auto;
             }
@@ -275,21 +231,13 @@ Step 7: Publish the website in the given URL.
         <div class="image">
             <table cellspacing="20"> 
                 <tr align="center">
-                    <td> <img src="my image.jpg"> </td>
-                    <td> <img src="tae.jpeg"> </td>
-                    <td> <img src="che.jpeg"> </td>
-                    <td> <img src="mingyu.jpeg"> </td>
-                    <td> <img src="song.webp"> </td>
+                   <td> <img src="song.webp"> </td>
                     <td> <img src="iu.jpg"> </td>
                 </tr>
                 <tr align="center">
                     <th> Priyadharshini.P </th>
                     <th> Taehyung </th>
-                    <th> Che Zheyuan</th>
-                    <th> Mingyu </th>
-                    <th> Songkang</th>
-                    <th> IU </th>
-                </tr>
+                    </tr>
                 <tr align="center">
                     <td> CEO </td>
                     <td> CEO, Co-Founder </td>
@@ -300,7 +248,6 @@ Step 7: Publish the website in the given URL.
                 </tr>
             </table>
         </div>
-    </div>
     <footer>
         <center> Designed and Developed by Niranjana devi S (212221220036) </center>
     </footer>
@@ -316,12 +263,6 @@ Step 7: Publish the website in the given URL.
                 margin: 0;
                 padding: 0;
                 font-family: 'Courier New', Courier, monospace;
-            }
-            .banner {
-                width: 100%;
-                height: 100vh;
-                background-size: cover;
-                background-position: center;
             }
             .navbar {
                 width: 85%;
@@ -339,19 +280,7 @@ Step 7: Publish the website in the given URL.
                 border-radius: 10px;
                 background:gold;
                 cursor: pointer;
-            }
-            .navbar li {
-                list-style: none;
-                display: inline-block;
-                margin: 0 20px;
-                position: relative;
-            }
-            .navbar li a {
-                text-decoration: none;
-                color: white;
-                text-transform: uppercase;
-            }.box-2 {
-                height: 400px;
+            }height: 400px;
                 width: 400px;
                 border: 3px solid gold;
                 border-radius: 20px;
@@ -363,12 +292,6 @@ Step 7: Publish the website in the given URL.
                 border: 0;
                 outline: none;
                 padding: 10px 20px;
-                color: white;
-                border-radius: 30px;
-                background: gold;
-                cursor: pointer;
-                position: relative;
-                top: 50px;
             }
            .box-2 span {
                 color: gold;
@@ -408,12 +331,8 @@ Step 7: Publish the website in the given URL.
             </div>
             <div class="box-2"> 
                 <h2> Contact Information </h2>
-                <p> <span>Address</span> : 159,Kamatchi Nagar 2nd street Pallikaranai,Chennai   ch-600100. </p>
-                <p> <span>Email</span> : codeverse@gmail.com.com </p>
-                <p> <span>Phone</span> : 044 87536890 </p>
-            </div>
-        </div>
-    </div>
+              <p> <span>Phone</span> : 044 87536890 </p>
+      </div>
     <footer>
         <center> Designed and Developed by Priyadharshini P (212223240128)</center>
     </footer>
