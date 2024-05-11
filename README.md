@@ -49,12 +49,12 @@ Step 7: Publish the website in the given URL.
                 height: 40px;
                 display: flex;
                 background: rgba(255, 255, 255, 0.2);
-                }.navbar li:hover {
+            }.navbar li:hover {
                 border: 1px;
                 padding: 10px;
                 color: white;
                 background-color:gold;
-                }.content {
+            }.content {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -76,7 +76,6 @@ Step 7: Publish the website in the given URL.
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
             </form>
-        </div>
         <div class="content">
             <div class="text">
                 <h2>InnovateSoft Solutions </h2>
@@ -86,9 +85,7 @@ Step 7: Publish the website in the given URL.
                 <div>
                     <a href="#" class="login"> Log In </a>
                     <a href="#" class="signup"> Sign Up </a>
-                </div>
-            </div>
-        </div>  
+         </div>  
     </div>
     <footer>
         <center> Designed and Developed by Niranjana devi S (212221220036) </center>
@@ -105,7 +102,7 @@ Step 7: Publish the website in the given URL.
                 margin: 0;
                 padding: 0;
                 font-family: 'Courier New', Courier, monospace;
-                        }
+              }
             .banner {
                 width: 100%;
                 height: 100vh;
@@ -118,9 +115,7 @@ Step 7: Publish the website in the given URL.
                 border: 0;
                 outline: none;
                 padding: 12px 20px;
-                font-size: 15px;
-                color: white;
-            } .navbar li {
+           } .navbar li {
                 list-style: none;
                 display: inline-block;
                 margin: 0 20px;
@@ -203,12 +198,7 @@ Step 7: Publish the website in the given URL.
                     <th> Priyadharshini.P </th>
                     <th> Taehyung </th>
                     </tr>
-                <tr align="center">
-                    <td> CEO </td>
-                    <td> CEO, Co-Founder </td>
-                    <td> Dy. Director </td>
-                </tr>
-            </table>
+                </table>
        <footer>
         <center> Designed and Developed by Niranjana devi S (212221220036) </center>
     </footer>
@@ -244,11 +234,7 @@ Step 7: Publish the website in the given URL.
                 border: 0;
                 outline: none;
                 padding: 10px 20px;
-            }
-            footer {
-                background-color: gold;
-                margin-top: auto;
-            }
+           }
         </style>
     </head>
 <body background="image.webp">
