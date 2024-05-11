@@ -259,19 +259,15 @@ Step 7: Publish the website in the given URL.
                         </center>
                 </form>
             </div>
-            <div class="box-2"> 
-                <h2> Contact Information </h2>
-              <p> <span>Phone</span> : 044 87536890 </p>
-      </div>
-    <footer>
+         <footer>
         <center> Designed and Developed by Priyadharshini P (212223240128)</center>
     </footer>
 </body>
 </html>
 ~~~
 ## OUTPUT:
-![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/a752935f-eae1-43a0-8868-a0d9e11c5887)
-![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/807ac5fe-5e73-4de9-b773-7b375c7b0cab)
-![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/2e35f414-657d-4bfd-9b9d-b48676690988)
+![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/7914c0d9-3951-4e2d-9310-3bfc25ce6ca8)
+![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/2b60c6d0-dc5e-4764-9fd7-1b0b5beae6ee)
+![image](https://github.com/niranjanadevi-s/softweb/assets/141748873/ae563dba-223e-4c93-a434-26d7662c0667)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
